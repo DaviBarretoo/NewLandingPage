@@ -1,0 +1,1 @@
+Creditos do design :  https://www.figma.com/file/ciz38MVq2aZO9efMrxk1tM/50%2B-Landing-page-designs-(Community)?node-id=806%3A897&mode=dev
