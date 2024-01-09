@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*Padronizando Tags de acordo com o figma*/
+body {
+    background-color: #F2F2F2;
+    max-width: 144rem;
+    margin: 0 auto;
+    /* Margins automaticas para esquerda e direita o navegador vai calcular automaticamente */
+    min-height: 100vh;
+    padding: 0rem 2rem 0rem 2rem;
+
+}
+
+/*Estilização da Pagina*/
+
+.padrao-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.principal-content-container h1 {
+    padding-top: 6.4rem;
+    padding-bottom: 2.4rem;
+    color: #252525;
+    font-family: Poppins;
+    font-size: 5.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 8.4rem;
+    /* 150% */
+}
+
+.textinho-contaner {
+    color: rgba(37, 37, 37, 0.80);
+    text-align: center;
+    font-family: Avenir;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 2.4rem;
+}
+
+.botao-unico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+    align-items: flex-start;
+    gap: 1rem;
+    border-radius: 3.6rem;
+    background: #252525;
+    border: none;
+}
+
+.botao-unico p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+.divisao-container {
+    width: 6.6rem;
+    height: 0.4rem;
+    background: #252525;
+}
+
+.conteudo-do-menu {
+    position: relative;
+    top: 8rem;
+    width: 90rem;
+    
+    padding: 40px 6px;
+    border-radius: 4.8rem;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7.2rem;
+    max-width: 100%;
+    height: auto;
+    flex-flow: row wrap;
+}
+
+.menusinho-container h2{
+    color: #252525;
+
+font-family: Avenir;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.menusinho-container p{
+    color: rgba(37, 37, 37, 0.70);
+
+font-family: Avenir;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.content-img{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    
+    
+}
+
+.content-img img{
+    max-width: 100%;
+    height: auto;
+}
+
+.img-menor{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    gap: 4.3rem;
+    
+}
